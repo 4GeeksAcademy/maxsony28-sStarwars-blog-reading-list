@@ -1,0 +1,47 @@
+body {
+  background-color: #151515; /* Fondo oscuro exacto de SW */
+  color: #b5b7b7;
+  font-family: "Din", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Estilos de la tarjeta Databank */
+.databank-card {
+  background-color: #282727;
+  border: none;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.databank-card:hover {
+  transform: scale(1.02);
+}
+
+.card-img-container {
+  position: relative;
+  border-bottom: 2px solid #ed1d24; /* Acento Rojo Star Wars */
+}
+
+.databank-title {
+  color: #dddddd;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}
+
+/* Scrollbar temática para que no desentone con el fondo negro */
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #151515;
+}
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ed1d24;
+}
